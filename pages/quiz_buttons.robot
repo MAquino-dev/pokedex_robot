@@ -15,7 +15,6 @@ Library    AppiumLibrary
     #Wait Until Element Is Visible   ${title_page}
 
 #I choose a specific button
-## ESTUDAR UMA FORMA DE FAZER ESSA FEATURE TODA
     #Log     inspect button
     #Click Element   ${pikachu_letter_p}
     #Click Element   ${pikachu_letter_i}
@@ -27,7 +26,6 @@ Library    AppiumLibrary
     #Click Element   ${continue_button}
 
 #I validate that it is in the pokemon name text
-# E ESSA TAMBÉM
     #Log     validating quiz letter buttons
     #conferindo se é clicável
     #Wait Until Element Is Visible   ${use_hint_button}
