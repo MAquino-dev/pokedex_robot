@@ -15,7 +15,6 @@ that I access the pokedex
     Wait Until Element Is Visible    ${title_page}
 
 I select all buttons
-######## ESTUDAR O IF
     log     Clicking the buttons
     Wait Until Element Is Visible   ${letter_p}
     Element Should Be Visible   ${letter_p}
@@ -30,7 +29,6 @@ I select all buttons
 
 
 I validate that they are working
-    #conferindo se é clicável
     log     Clicking in the button U
     ${letter_u}   Set Variable    //android.widget.Button[@text='U'][@clickable='true']
     ${letter_u}   Run Keyword And Return Status     Element Should Be Visible    ${letter_u}
