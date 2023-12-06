@@ -59,7 +59,6 @@ I write pokemons name
 
 validate the buttons and continue to the next challenge until 'Rate Us please'
     Log    Test the funcionality of the button in 'rate us'
-    # TENTAR PESQUISAR E FAZER ESSA PARTE TAMBÉM
 
     Wait Until Element Is Visible   ${get_coins}
     Element Should Be Visible   ${get_coins}
