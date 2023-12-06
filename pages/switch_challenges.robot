@@ -39,7 +39,6 @@ I write and pass the challenges of pokemons
     Click Element   ${continue_button}
 
 validate the level buttons and test the return of the other challenges
-    #conferindo se é clicável
     Wait Until Element Is Visible   ${level_button}
     Element Should Be Visible   ${level_button}
     Element Should Be Enabled   ${level_button}
